@@ -1,0 +1,175 @@
+@import url("https://fonts.google.com/specimen/Barlow:wght@600");
+@import url("https://fonts.google.com/specimen/Fraunces:wght@700;900");
+
+.logo_name{
+    position: absolute;
+    margin-left: 25px;
+    line-height: 75px;
+    font-family: "Fraunces", sans-serif;
+    font-weight: 900;
+    font-size: 25px;
+    color: #fff;
+}
+#first_header{
+    background-color:  #3eb0ee;
+    width:1440px;
+    height:25%;
+}
+#subheader{
+    position:relative;
+    text-align: center;
+}
+#subheader_title {
+    font-family: "Fraunces", sans-serif;
+    font-weight: 700;
+    color: #fff;
+    font-size: 45px;
+    text-align: center;
+    margin: 25px 0 50px 0;
+    position:absolute;
+    left: 50%;
+    
+}
+#nav_bar {
+    display: flex; 
+}
+#nav_bar_element {
+    width:1440px;
+    line-height: 75px;
+    margin-right: 25px;
+    text-align: right;
+    list-style: none;
+    display: inline-block;
+    margin-right: 10px;
+}
+.nav_item {
+    list-style: none;
+    display: inline-block;
+    margin-right: 10px;
+}
+.nav_link {
+    padding: 13px;
+    border-radius: 25px;
+    text-decoration: none;
+    color: #fff;
+    cursor: pointer;
+    font-family: "Barlow", sans-serif;
+}
+.navbar_link:hover {
+    transition: 0.1s;
+    background: #fff;
+    color: #808080;
+    box-shadow: 3px 3px 0 #bfbfbf;
+}
+.nav_item:last-child a {
+    background: #fff;
+    color: #808080;
+}
+.nav_item:last-child a:hover {
+    transition: 0.3s;
+    text-decoration: underline solid #808080;
+    box-shadow: 3px 3px 0 #bfbfbf;
+}
+#logo
+{
+    border: 1px solid;
+    border-color:lightskyblue;
+}
+.image_blocks {
+    width: 50vw;
+    height: 37vw;
+    object-fit: cover;
+}
+.blocks {
+    display: flex;
+    align-items: center;
+    width: 50vw;
+    height: 37vw;
+}
+.block_headings {
+    font-family: "Fraunces", sans-serif;
+    font-size: 3.2vw;
+    font-weight: 900px;
+    width: 400px;
+    margin-bottom: 25px;
+    text-align: center;
+    
+}
+.block_paragraphs{
+    font-family: "Fraunces", sans-serif;
+    
+    color: #000;
+    font-size: 1.8vw;
+    width: 400px;
+    position: relative;
+    top:40%
+}
+.row p{
+    text-align: center;
+}
+.picture_text_block {
+    background-image: url(images/desktop/image-graphic-design.jpg);
+    margin: 3%;
+    position: relative;
+}
+.Graphic_heading {
+    position: absolute;
+    top:17px;
+    left:50px;
+}
+.graphic_paragraph {
+    position: absolute;
+    bottom:20px;
+    left:10px;
+}
+#clients_title{
+    text-align: center;
+}
+.img_clients{
+    border-radius: 50%;
+}
+.bottom_styling_images {
+    margin-top: 0;
+    grid-template-columns: 50vw 50vw;
+}
+footer {
+    background-color:#98d8cd ;
+    height: 300px;
+    width: 1440px;;
+}
+#footer_logo_name {
+    text-align: center;
+    font-family: "Fraunces", sans-serif;
+    font-weight: 900;
+    font-size: 25px;
+}
+#footer_navigation {
+    list-style: none;
+    text-align: center;
+}
+.footer_list_item {
+    display: inline-block;
+    list-style: none;
+}
+.footer_list_item:not(:last-child) {
+    margin-right: 40px;
+}
+.footer_item_link {
+    text-decoration: none;
+    color: #194d44;
+    font-family: "Barlow", sans-serif;
+    transition: 0.1s;
+    cursor: pointer;
+}
+#socials {
+    position: relative;
+    
+}
+.social_logo{
+    align-items: center;
+    padding-left: 180px;
+    cursor: pointer;
+    right: 50%;
+
+    
+}
